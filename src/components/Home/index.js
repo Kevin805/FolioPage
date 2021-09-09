@@ -11,7 +11,7 @@ function Home() {
                 <Header /> 
             </div>
             <div> 
-                <Body /> 
+                <Body />  
             </div>
             <div> 
                 <Footer /> 
