@@ -1,7 +1,7 @@
 import React from 'react';
 import './projects.css';
-import { ProjectData } from "../../../data/projects.js";
-import  ProjectCard  from "./projectcard.js";
+import { ProjectData } from "../../data/projects.js";
+import  ProjectCard  from './projectcard.js';
 
 
 function Projects() {
@@ -10,10 +10,10 @@ function Projects() {
 
     return (
         <div className="projects">
-            <label>Projects</label>
+            <label className="section-title">Projects</label>
             <div>
                 {data.map((project) => {
-                  return <ProjectCard /> })}
+                  return <ProjectCard project={project} /> })}; 
             </div>
         </div>
     )
