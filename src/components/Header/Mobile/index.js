@@ -10,7 +10,7 @@ function Mobile({isOpen, setIsOpen}) {
             <div className="mobile-options">
             <div className='mobile-option'>
                 <a href='#project'>
-                    <i class="fi-rr-microphone option-icon"></i> Projects
+                <i class="fi-rr-dart option-icon"></i> Projects
                 </a>
             </div>
             <div className='mobile-option'>

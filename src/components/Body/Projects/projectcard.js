@@ -7,14 +7,23 @@ function ProjectCard({project}) {
             <div className="project-info">
             <label>{project.title}</label>
             <div className="project-links">
-                {project.demo&& <a>
-                    <div>
-                        
+                {project.demo && (
+                <a className="project-name" href={project.demo}>
+                    <div className="link-button">
+                        <i className="fi-rr-disk"></i>Demo
                     </div>
-                    </a>}
-
+                </a>
+                )}
+                {project.github && (
+                <a className="project-name" href={project.github}>
+                    <div className="link-button">
+                    <i className="devicon-github-original colored"></i>Github
+                    </div>
+                </a>
+                )}
             </div>
-            </div>
+            <p>{project.about}</p>
+        </div>
             <img src={project.image} className="project-image" />
         </div>
     )
