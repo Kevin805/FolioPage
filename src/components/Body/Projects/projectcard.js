@@ -28,8 +28,7 @@ function ProjectCard({project}) {
                     return <label className="tag">{tag}</label>
                 })}
             </div>
-
-        </div>
+         </div>
             <img src={project.image} className="project-image" />
         </div>
     )
