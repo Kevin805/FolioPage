@@ -20,10 +20,10 @@ export const ProjectData = [
     {
         id: 3,
         title:"Vanilla JavaScript Games",
-        about:"Essential for every successful programmer! Solutions to fun JavaScript coding challenges and games.  Demonstrates a strong knowledge for Vanilla JavaScript. Shows basic understanding of the use and implementation of algorithms. Consistently adding to the project to test my skills and continue to grow and learn as a programmer.",
+        about:"Essential for every successful programmer! Solutions to fun JavaScript coding challenges and games. Demonstrates a strong knowledge for Vanilla JavaScript. Shows basic understanding of the use and implementation of algorithms. Consistently adding to the project to test my skills and continue to grow and learn as a programmer.",
         tags: ["ReactJS", "NodeJS"],
         demo:"https://www.youtube.com/watch?v=J05erMPXeiA",
         github:"https://github.com/Kevin805/VanillaJS_Projects",
         image:require('../data/JavaScriptGames.png').default,
-    },
+    }
 ]
