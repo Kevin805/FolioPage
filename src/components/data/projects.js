@@ -6,7 +6,7 @@ export const ProjectData = [
         tags: ["ReactJS", "NodeJS", "NextJS", "MongoDB"],
         demo:"https://www.youtube.com/watch?v=JOFh03GE3dA",
         github:"https://github.com/Kevin805/storage_finder",
-        image:require('../data/StoremyStuff.png').default,
+        image:require('../data/images/StoremyStuff.png').default,
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const ProjectData = [
         tags: ["ReactJS", "NodeJS", "Firebase", "Moment"],
         demo:"https://www.youtube.com/watch?v=XnxX9VO3sJU",
         github:"https://github.com/Kevin805/MobileChat",
-        image: require('../data/Chitchat.png').default,
+        image: require('../data/images/Chitchat.png').default,
     },
     {
         id: 3,
@@ -24,6 +24,6 @@ export const ProjectData = [
         tags: ["Vanilla JS"],
         demo:"https://www.youtube.com/watch?v=J05erMPXeiA",
         github:"https://github.com/Kevin805/VanillaJS_Projects",
-        image:require('../data/JavaScriptGames.png').default,
+        image:require('../data/images/JavaScriptGames.png').default,
     }
 ]
