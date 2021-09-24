@@ -11,7 +11,9 @@ function Header() {
 
     return ( 
     <div className='header'>
-        <div className='logo'>logo here</div>
+        <div className='logo'>
+            logo here
+            </div>
         <div className='menu'>
         <div className='web-menu'>
             <Web />
