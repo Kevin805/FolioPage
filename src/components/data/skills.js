@@ -19,6 +19,14 @@ export const SkillsData = [
                 name:"CSS",
                 icon:<i class="devicon-css3-plain colored"></i>
             },
+            {
+                name:"New",
+                icon:<i></i>
+            },
+            {
+                name:"New2",
+                icon:<i></i>
+            },
         ]
     },
     {
