@@ -25,5 +25,14 @@ export const ProjectData = [
         demo:"https://www.youtube.com/watch?v=J05erMPXeiA",
         github:"https://github.com/Kevin805/VanillaJS_Projects",
         image:require('../data/images/JavaScriptGames.png').default,
-    }
+    },
+    {
+        id: 4,
+        title:"New Project",
+        about:"",
+        tags: [""],
+        demo:"",
+        github:"",
+        image:"",
+    },
 ]
